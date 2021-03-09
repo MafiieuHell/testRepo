@@ -3,6 +3,7 @@
  */
 
 //this is a comment
+
  const orders = [
    {id: 2340, customer: 101, product: 20, timestamp: "1591243565", price: "12.00"},
    {id: 2341, customer: 10, product: 12, timestamp: "1591603575", price: "32.50"},
@@ -20,29 +21,7 @@
    {id: 2351, customer: 67, product: 8, timestamp: "1599135151", price: "125.99"}
  ];
 
-//  function Date(table) {
-// Number(orders.timestamp);
-// for (let i = 0; i < orders.length; i++) {
-//   let time = (orders.timestamp).length
-// for (let j = 0; j < time ; j++) {
-//
-//  let date = new Date[orders.timestamp[j]*1000];
-// timestamp[j] = date;
-// }
-// }
-// }
-//
-// function priceChange(table) {
-//   Number(orders.price);
-//   for (let i = 0; i <orders.length; i++) {
-//     for (let j = 0; j < price.length; j++) {
-//         let priceReduction = price[j];
-//
-//         price[j] = (priceReduction + (priceReduction* 20 /100)).toFixed(2);
-//
-//     }
-//   }
-// }
+
 
 function applyReduction(ordersArray) {
   for (let i = 0; i < ordersArray.length; i++) {
